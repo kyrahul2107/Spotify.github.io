@@ -11,6 +11,7 @@ body{
 
 nav{
     font-family: 'Ubuntu', sans-serif;
+    
 }
 
 nav ul{
@@ -18,7 +19,7 @@ nav ul{
     align-items: center;
     list-style-type: none;
     height: 65px;
-    background-color: black;
+    background-color: rgb(25, 25, 44);
     color: white;
 }
 
@@ -26,7 +27,7 @@ nav ul li{
     padding: 0 12px;
 }
 .brand img{
-    width: 44px;
+    width: 62px;
     padding: 0 8px;
 }
 
@@ -44,10 +45,10 @@ nav ul li{
    font-family: 'Varela Round', sans-serif;
    display: flex;
    margin: 23px auto;
-   width: 70%;
+   width: 80%;
    border-radius: 12px;
    padding: 34px;
-   background-image: url('bg.jpg');
+/*   background-image: url('bg.jpg');*/
 }
 
 .bottom{
