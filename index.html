@@ -4,10 +4,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
         <title>Spotify - Your favourite music is here</title>
+    
         <link rel="stylesheet" href="style.css">
         </head>
 <body>
+    <!-- Navigation Bar-->
     <nav>
         <ul>
             <li class="brand"><img src="logo.png" alt="Spotify"> Spotify</li>
@@ -74,13 +77,17 @@
         </div>
         <div class="songBanner"></div>
     </div>
-
+    <!-- The bottom side for the  play button and play icons-->
     <div class="bottom">
+        <!-- This is for horzontal bar that will flow from zero to 100-->
         <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
-            <!-- fontawesome icons -->
+            <!-- fontawesome icons  type in google-->
+            <!--Forward icons-->
             <i class="fas fa-3x fa-step-backward" id="previous"></i>
+           <!--Play icons-->
             <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <!-- The next buttton icons-->
             <i class="fas fa-3x fa-step-forward" id="next"></i> 
         </div>
         <div class="songInfo">
@@ -88,6 +95,7 @@
         </div>
     </div>
     <script src="script.js"></script>
+    <!--Including the java script play icond by website -->
     <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
 </body>
 </html>
